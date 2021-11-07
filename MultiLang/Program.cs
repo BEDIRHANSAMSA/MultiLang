@@ -25,8 +25,7 @@ namespace MultiLang
                 case "tr-TR":
                     Language.Resources.Culture = new CultureInfo("tr-TR");
                     break;
-                default
-                    : //default english because there can be so many different system language, we rather fallback on english in this case.
+                default: //default english because there can be so many different system language, we rather fallback on english in this case.
                     Language.Resources.Culture = new CultureInfo("tr-TR");
                     break;
             }
